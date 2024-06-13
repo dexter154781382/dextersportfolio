@@ -48,7 +48,7 @@ nav a {
 
 }
 .links a{
-    padding: 10px 35px;
+    padding: 10px 30px;
   
 }
 
@@ -88,9 +88,9 @@ nav .toggle_btn{
    
 }
 .login_btn{
-    background-color: #333;
+    background: #333;
     color: #fff;
-    padding: 0.2rem 8   rem;
+    padding: 0.2rem 8rem;
     text-decoration: none;
     border-radius: 10px;
     font-size: 12px;
@@ -111,10 +111,10 @@ nav .toggle_btn{
     right: 0.5rem;
     padding-top: 15px; 
     width: 300px;
-    background:#292929;
+    background:#ffffff2f;
     backdrop-filter: blur(10px);
     transition: 10s;
-    top: 160px;
+    top: 107px;
     border-radius: 10px;
     overflow: hidden;
     transition: height cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -131,10 +131,10 @@ nav .toggle_btn{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #252525;
     list-style-type: none;
     text-decoration: none;
-    padding: 0.7rem;
+    padding: 0.8rem;
 }
 
 .dropdown_menu a:hover{
@@ -149,6 +149,7 @@ nav .toggle_btn{
 
 .dropdown_menu .login_btn{
     display: flex;
+    color: #fff;
 }
 
 /* RESPONSIVE DESIGN */
@@ -174,7 +175,7 @@ nav .toggle_btn{
     .dropdown_menu{
         left: .4rem;
         width: unset;
-        top: 155px;
+        top: 105px;
     }
 }
 
