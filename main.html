@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Dexter's Portfolio</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
 <!--HEADER NAVIGATION BAR-->
 <header>
         <nav>
-            <div class="dexter_logo">
+            <div class="dexter_logo" >
                 <img src="images/newlogo.png" alt="" class="logo" target="https://www.facebook.com/Dexter.Sumo">
             </div>
 
@@ -49,20 +50,20 @@
 </header>     
 
 <!--Home Section-->
-<section id="home" class="section_home">  
+<section id="home" class="section_home show-animate">  
     
-    <div class="home_image">
-        <img src="images/dexter_pics.png" alt="">
+    <div class="home_image" data-aos="fade-right" data-aos-duration="1000">
+        <img src="images/dexter_pics.png" alt="" class="">
     </div>
 
-        <div class="home_content">
+        <div class="home_content" data-aos="fade-left" data-aos-duration="1000">
             <br>
             <h3>Hi,</h3>
-            <h1>I'am Dexter Sumo</h1>
+            <h1>I'am Dexter Smo</h1>
             <h3>Aspiring <span class="multiple-text"></span></h3>
         <br>
-            <p style="color: black;">My name is Dexter M, Sumo Jr. Aspiring Frontend & Backend Web Developer based in Philippines. </p>
-            <p style="color: black;">I'am passionate about designing, making logo's, responsive website, build beautiful user interface and so on when it comes Web Flow             Developement.</p>
+            <p style="color: black;">My name is Dexter M, Sumo Jr. Aspiring Frontend & Backend Web Developer based in Philippines.</p>
+            <p style="color: black;">I'am passionate about designing, making logo's, responsive website, build beautiful user interface and so on when it comes Web Flow Developement.</p>
             <br>
         <div class="social_media">
             <a href="https://www.facebook.com/Dexter.Sumo"><i class="fab fa-facebook-f fa-2x" style="color: #5573b4;"></i></a>
@@ -82,50 +83,49 @@
 <!--Skills Section-->   
 <section id="skills" class="skills_cards">
 
-    <div class="skills-box">
-        
+    <div class="skills-box" data-aos="fade-up" data-aos-duration="1000">
         <img src="images/html5.png" alt="">
         <h4>HTML5</h4>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
 
-    <div class="skills-box">
+    <div class="skills-box" data-aos="fade-up" data-aos-duration="1000">
         <img src="images/css.png" alt="">
         <h4>CSS</h4>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
 
-    <div class="skills-box">
+    <div class="skills-box" data-aos="fade-up" data-aos-duration="1000">
         <img src="images/javascript (2).png" alt="">
         <h4>JavaScript</h4>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
 
-    <div class="skills-box">
+    <div class="skills-box" data-aos="fade-up" data-aos-duration="1000">
         <img src="images/figma.png" alt="">
         <h4>Figma</h4>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
 
-    <div class="skills-box">
+    <div class="skills-box" data-aos="fade-up" data-aos-duration="1000">
         <img src="images/github.png" alt="">
         <h4>GITHUB</h4>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
 
-    <div class="skills-box">
+    <div class="skills-box" data-aos="fade-up" data-aos-duration="1000">
         <img src="images/bootstrap.png" alt="">
         <h4>Bootstrap</h4>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
 
-    <div class="skills-box">
+    <div class="skills-box" data-aos="fade-up" data-aos-duration="1000">
         <img src="images/xamp.png" alt="">
         <h4>XAMPP</h4>
         <br>
@@ -138,13 +138,13 @@
 <section id="about" class="about-cards">
 
     <div class="about-image">
-        <img src="images/graduate.jpg" alt="">
+        <img src="images/graduate.jpg" alt="" data-aos="fade-right" data-aos-duration="1000">
     </div>
 
     <div class="about-content">
 
-        <div class="content">
-            <h1>About</h1>
+        <div class="content" data-aos="fade-right" data-aos-duration="1000">
+            <h1 >About</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sunt autem, cum obcaecati beatae voluptas? Doloremque aliquid cumque molestiae, dicta natus reprehenderit dolorem deleniti autem nostrum rem obcaecati. Distinctio, quidem!</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sunt autem, cum obcaecati beatae voluptas? Doloremque aliquid cumque molestiae, dicta natus reprehenderit dolorem deleniti autem nostrum rem obcaecati. Distinctio, quidem!</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sunt autem, cum obcaecati beatae voluptas? Doloremque aliquid cumque molestiae, dicta natus reprehenderit dolorem deleniti autem nostrum rem obcaecati. Distinctio, quidem!</p>
@@ -157,7 +157,7 @@
 <section id="contact" class="contact-cards">
 
     <div class="contact-container">
-        <form class="contact-left" action="https://api.web3forms.com/submit" method="POST">
+        <form class="contact-left" action="https://api.web3forms.com/submit" method="POST" data-aos="fade-right" data-aos-duration="1000">
 
             <div class="contact-left-title">
                 <h2>Get in touch</h2>
@@ -168,23 +168,23 @@
                 <br>
                 <input name="email" placeholder="Your Email" class="contact-inputs" required>
                 <br>
-                <textarea name="Message" class="contact-inputs" required></textarea>
+                <textarea name="Message" placeholder="Your feedback here.." class="contact-inputs" required></textarea>
                 <br>
                 <button type="submit">Submit</button>
             
         </form>
     
-        <div class="contact-right">
+        <div class="contact-right" data-aos="fade-left" data-aos-duration="1000">
             <img src="images/contact-right.png" alt="">
         </div>
 
     </div>
 
 </section>
-
-
-
- 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="script.js"></script>
 </body>
 
